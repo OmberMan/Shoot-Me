@@ -2,6 +2,6 @@
  {
         "name": "Creep",
         "movementType": "Land",
-        "uniques": ["Uncapturable", "Damage is ignored when determining unit Strength", "[-99]% XP gained from combat", "Can only attack [Land] units", "Unable to capture cities", "Ignores Zone of Control", "No Sight"]
+        "uniques": ["Uncapturable", "Damage is ignored when determining unit Strength", "[-99]% XP gained from combat", "Can only attack [Land] units", "Unable to capture cities", "Ignores Zone of Control", "No Sight", "Unit will heal every turn, even if it performs an action"]
     },
  ]
