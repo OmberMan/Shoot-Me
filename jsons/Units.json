@@ -3,13 +3,36 @@
 		"name": "Punkert",
 		"unitType": "Creep",
 		"movement": 1,
-		"strength": 22,
+		"strength": 21,
 		"cost": 2,
-    "uniqueTo": "Barbarians",
+                "uniqueTo": "Barbarians",
 		"requiredTech": "Chemistry",
-		"upgradesTo": "Musketman",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus", "[+33]% Strength <when defending>", "[+20]% Strength <when defending> <vs [Ranged] units>", "[-20]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
 		"requiredResource": "Joy",
 		"attackSound": "horse"
 	},
-  ]
+	{
+		"name": "Peter",
+		"unitType": "Creep",
+		"movement": 3,
+		"strength": 35,
+		"cost": 2,
+                "uniqueTo": "Barbarians",
+		"requiredTech": "Chemistry",
+		"uniques": ["Invisible to non-adjacent units", "[+20]% Strength <when attacking>", "Double movement in [Hills]", "[+25]% Strength <when defending> <vs [Ranged] units>", "[-20]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
+		"requiredResource": "Joy",
+		"attackSound": "horse"
+	},
+ 	{
+		"name": "Beady",
+		"unitType": "Creep",
+		"movement": 1,
+		"strength": 41,
+		"cost": 2,
+                "uniqueTo": "Barbarians",
+		"requiredTech": "Chemistry",
+		"uniques": ["[3] Sight", "Can see invisible [All] units", "Double movement in [Hills]",  "[+10]% Strength <when defending> <vs [Ranged] units>", "[-25]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
+		"requiredResource": "Joy",
+		"attackSound": "horse"
+	},
+]
