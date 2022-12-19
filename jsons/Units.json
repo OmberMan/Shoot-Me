@@ -1,1 +1,15 @@
-d
+[
+  	{
+		"name": "Punkert",
+		"unitType": "Creep",
+		"movement": 1,
+		"strength": 22,
+		"cost": 2,
+    "uniqueTo": "Barbarians",
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Musketman",
+		"uniques": ["No defensive terrain bonus"],
+		"requiredResource": "Joy",
+		"attackSound": "horse"
+	},
+  ]
