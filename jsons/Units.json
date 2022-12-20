@@ -7,7 +7,7 @@
 		"cost": 2,
                 "uniqueTo": "Barbarians",
 		"requiredTech": "Chemistry",
-		"uniques": ["No defensive terrain bonus", "[+33]% Strength <when defending>", "[+20]% Strength <when defending> <vs [Ranged] units>", "[-20]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
+		"uniques": ["No defensive terrain bonus", "[+15]% Strength <when defending>", "[+20]% Strength <when defending> <vs [Ranged] units>", "[-20]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
 		"requiredResource": "Joy",
 		"attackSound": "horse"
 	},
@@ -31,7 +31,19 @@
 		"cost": 2,
                 "uniqueTo": "Barbarians",
 		"requiredTech": "Chemistry",
-		"uniques": ["[3] Sight", "Can see invisible [All] units", "Double movement in [Hills]",  "[+10]% Strength <when defending> <vs [Ranged] units>", "[-25]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
+		"uniques": ["[3] Sight", "Can see invisible [All] units",  "[+15]% Strength <when defending> <vs [Ranged] units>", "[-25]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
+		"requiredResource": "Joy",
+		"attackSound": "horse"
+	},
+	 {
+		"name": "Doctie",
+		"unitType": "Creep",
+		"movement": 1,
+		"strength": 25,
+		"cost": 2,
+                "uniqueTo": "Barbarians",
+		"requiredTech": "Chemistry",
+		"uniques": ["All healing effects doubled", "[+15]% Strength <when defending> <vs [Ranged] units>", "[-20]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
 		"requiredResource": "Joy",
 		"attackSound": "horse"
 	},
