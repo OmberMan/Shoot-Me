@@ -1,5 +1,5 @@
 [
-  	{
+  	/*{
 		"name": "Punkert",
 		"unitType": "Creep",
 		"movement": 1,
@@ -44,6 +44,18 @@
                 "uniqueTo": "Barbarians",
 		"requiredTech": "Chemistry",
 		"uniques": ["All healing effects doubled", "[+15]% Strength <when defending> <vs [Ranged] units>", "[-20]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
+		"requiredResource": "Joy",
+		"attackSound": "horse"
+	},*/
+	 {
+		"name": "Jerseyhead",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 4,
+		"cost": 2,
+                "uniqueTo": "Barbarians",
+		"requiredTech": "Construction",
+		"uniques": ["All healing effects doubled", "Can only attack [Land] units", "[8] XP gained from combat", "[-20]% Strength for enemy [Land] units in adjacent [All] tiles", "Limited to [1] per Civilization"],
 		"requiredResource": "Joy",
 		"attackSound": "horse"
 	},
